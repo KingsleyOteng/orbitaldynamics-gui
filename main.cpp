@@ -5,11 +5,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-
-    QWidget widget;
-    Ui::MainWindow ui;
-    ui.setupUi(&widget);
-
-    widget.show();
+    MainWindow w;
+    w.show();
     return a.exec();
 }
