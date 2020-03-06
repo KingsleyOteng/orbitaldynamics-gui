@@ -325,16 +325,6 @@ p, li { white-space: pre-wrap; }
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit_11">
-    <property name="geometry">
-     <rect>
-      <x>120</x>
-      <y>80</y>
-      <width>221</width>
-      <height>41</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QTextEdit" name="inclination_box_2">
     <property name="geometry">
      <rect>
@@ -920,6 +910,9 @@ p, li { white-space: pre-wrap; }
       <height>41</height>
      </rect>
     </property>
+    <property name="placeholderText">
+     <string>Observatory</string>
+    </property>
    </widget>
    <widget class="QTextEdit" name="location_box_6">
     <property name="geometry">
@@ -929,6 +922,19 @@ p, li { white-space: pre-wrap; }
       <width>91</width>
       <height>61</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="SatNameEdit">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>80</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Satellite</string>
     </property>
    </widget>
   </widget>
