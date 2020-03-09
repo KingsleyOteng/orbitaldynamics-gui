@@ -19,11 +19,14 @@ MainWindow::MainWindow(QWidget *parent)
 
     //QMessageBox::information(this, "", windowTitle );
     ui->setupUi(this);
-    SatNameEdit = new QLineEdit;
-    SatNameEdit->setPlaceholderText("hello");
-    SatNameEdit->show();
-    SatNameEdit->setFocus();
+    //SatNameEdit = new QLineEdit;
+    //SatNameEdit->setPlaceholderText("hello");
+    //SatNameEdit->show();
+    //SatNameEdit->setFocus();
     this->setWindowTitle(windowTitle);
+    ui->location_box_5->setText("alright");
+    ui->URL_box->setText("Oh my goodness!");
+    ui->SatNamEdit->setText("Satellite Name");
 
 }
 
@@ -34,3 +37,8 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
+void MainWindow::on_pushButton_clicked()
+{
+ui->URL_box->setText("Oh my goodness!");
+}
